@@ -1,0 +1,94 @@
+  html, body {
+  color: #262626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+  padding: 3px;
+  background: #fff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+em em {
+  font-style: normal;
+}
+
+#wrapper {
+   background-color: #fff; 
+  border: 3px solid #eee !important;
+  padding: 0 30px;
+  /*margin: 15px;*/
+  max-width: 700px;
+  margin: 15px auto;
+}
+
+#wrapper {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#wrapper>*:first-child {
+  margin-top: 0!important;
+}
+
+#wrapper>*:last-child {
+  margin-bottom: 0!important;
+}
+
+#titlepage {
+	height: 300px;
+	text-align: center;
+}
+
+#titlepage h1 {
+	display: block;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+#titlepage author {
+	display: block;
+}
+
+#titlepage date {
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+  li::before {
+    top: -7px;
+    left: -14px;
+    color: #595959;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+em, i {
+  color: #262626;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"$if(lang)$ lang="$lang$" xml:lang="$lang$"$endif$>
+<!--
+  /*DOCUMENTATION ************************************************
+  * This document was generated with Pandoc, using a minimally   *
+  * modified version of Brett Terpstra's "GitHub" stylesheet,    *
+  * as included in Marked.app (http://markedapp.com), copyright  *
+  * 2011 Brett Terpstra and used, gratefully, with permission.   *
+  * Please leave this notice intact when building or distributing*
+  * your HTML. Brett's kindness in allowing his work to be reused*
+  * and redistributed is deeply appreciated.    (DPS, 2012-12-06)*
+  ***************************************************************/
+-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc">
+$for(author-meta)$
+  <meta name="author" content="$author-meta$">
+$endfor$
+$if(date-meta)$
+  <meta name="dcterms.date" content="$date-meta$">
+$endif$
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+$if(pagetitle)$
+  <title>$if(title-prefix)$$title-prefix$ | $endif$$pagetitle$$if(title-suffix)$ | $title-suffix$$endif$</title>
+$endif$
+<style>
+
+
+</style>
+$for(css)$
+  <link rel="stylesheet" href="$css$">
+$endfor$
+
+
+$if(highlighting-css)$
+  <style type="text/css">
+  $highlighting-css$
+  </style>
+$endif$
+
+$if(math)$
+$math$
+$endif$
+
+$for(javascript)$
+  <script type="text/javascript" src="$javascript$"></script>
+$endfor$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+</head>
+
+<body class="normal">
+$for(include-before)$
+$include-before$
+$endfor$
+
+
+  <div id="wrapper">
+    <div id="titlepage">
+        <h1>$pagetitle$</h1>
+        $if(date-meta)$
+          <date>$date-meta$</date>
+        $endif$        
+        $for(author-meta)$
+        <author>$author-meta$</author>
+        $endfor$
+
+    </div>
+
+
+    $if(toc)$
+    <div id="$idprefix$TOC">
+      $toc$
+    </div>
+    $endif$
+
+    $body$
+
+  </div>
+
+$for(include-after)$
+$include-after$
+$endfor$
+
+</body>
+</html>

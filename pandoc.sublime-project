@@ -1,0 +1,22 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "folder_exclude_patterns": ["build"],
+            "follow_symlinks": false
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 8
+    },
+    "build_systems":
+    [
+        {
+            "name": "Compile",
+            "cmd": ["sh", "build.sh", "$file_base_name", "$file"],
+            "working_dir": "${project_path:${folder}}",
+        }
+    ]
+}
