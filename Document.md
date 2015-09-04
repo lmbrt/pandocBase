@@ -1,6 +1,6 @@
 ---
 title: "Sample Document Title"
-author: "Dustin Lambert"
+author: "FirstName LastName"
 date: "2015-07-26"
 ---
 
